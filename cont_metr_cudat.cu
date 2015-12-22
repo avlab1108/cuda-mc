@@ -1531,6 +1531,14 @@ for(int k = 0; k < C[0].N; k++ )
 
 }
 
+if(i%1000 == 0)
+{
+if(CheckAllBonds() == false)
+{
+    printf("Bad bonds!\n");
+
+	}
+}
 /*
 if(i%5000==0)
 {
